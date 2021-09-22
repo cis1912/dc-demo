@@ -18,10 +18,10 @@ We've provided you with a basic Node application in the current directory. We've
 
 - Build our node docker image using the `Dockerfile`
 - Run the image
-- Expose port 8080 on the container (the port node is running on)
-- Bind the directory `/log` in the container to the directory `./log` on your computer. This will allow us to keep logs of all requests that come into the server.
+- Bind port 8080 (the port node is running) on the container to 8081 on the host
+- Bind the directory `/log` in the container to the directory `./log` on your computer. This will allow us to keep logs of all requests that come into the server. Volumes might help with this.
 
-Once you've implemented that functionality in `docker-compose.yml`, run `docker-compose up` and go to `localhost:8000` in your browser to see if the application is working!
+Once you've implemented that functionality in `docker-compose.yml`, run `docker-compose up` and go to `localhost:8080` in your browser to see if the application is working!
 
 Now, if you see something in the browser, look locally in `log/log.txt`. You should see logs of all requests have been made.
 
