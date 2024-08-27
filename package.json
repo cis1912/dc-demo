@@ -1,7 +1,7 @@
 {
   "name": "node_demo",
   "version": "1.0.0",
-  "description": "A demo application built to outline development with Docker for cis188",
+  "description": "A demo application built to outline development with Docker for cis1912",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
