@@ -4,13 +4,13 @@ Time to compose.
 
 # Installation
 
-Docker Compose should have gotten installled when you installed Docker, but if it didn't, [install it](https://docs.docker.com/compose/install/). You can check if you have Docker Compose is installed by popping open a terminal and trying to run `docker-compose`.
+Docker Compose should have gotten installed when you installed Docker, but if it didn't, [install it](https://docs.docker.com/compose/install/). You can check if you have Docker Compose is installed by popping open a terminal and trying to run `docker-compose`.
 
 ## Demo Time
 
 First, look around you and find a partner (or two)! You'll be working together to try to figure out the second part of this demo.
 
-We've provided a basic `docker-compose.yml` file for you to run. This file does only one thing: it runs a 2048 docker image. Per usual, you need to edit the `docker-compose.yml` file to bind port `8080` on your machine to `80` on the container. To try it out, run `docker-compose up` and go to `localhost:8080` in your browser. If things are working properly, you should see 2048!
+We've provided a basic `docker-compose.yml` file for you to run. This file does only one thing: it runs the [MeTube](https://github.com/alexta69/metube) container from the previous Docker demo. Per usual, you need to edit the `docker-compose.yml` file to bind port `8081` on your machine to `8081` on the container. To try it out, run `docker-compose up` and go to `localhost:8081` in your browser. If things are working properly, you should see the application!
 
 If that's working, use `Ctrl+C` to stop it, and we'll move onto the next part.
 
@@ -25,4 +25,4 @@ Once you've implemented that functionality in `docker-compose.yml`, run `docker-
 
 Now, if you see something in the browser, look locally in `log/log.txt`. You should see logs of all requests have been made.
 
-If everything here works, you're done! To let us know you're done, find Armaan and ask him if he had fun driving Porsches this morning.
+If everything here works, you're done! To let us know you're done, find Eunsoo and ask him if he had fun falling from his bike 2 days ago.

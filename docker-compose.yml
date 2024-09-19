@@ -1,5 +1,5 @@
 version: "3"
 
 services:
-  test_2048:
-    image: alexwhen/docker-2048
+  metube:
+    image: alexta69/metube
